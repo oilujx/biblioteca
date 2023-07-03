@@ -1,29 +1,23 @@
-# biblioteca
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
+## ejecutar el siguiente comando para instalar dependencias del proyecto vue
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### ejecutar el siguiente comando para compilar el proyecto web
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+### en la carpeta BD se encuentra el script de base de datos
+### se puede utilizar MsqlWorkbench para importar el esquema
+### en la capeta BD tambien se encuentra el pdf con la imagen del model entidad relacion
 
-```sh
-npm run build
-```
+### Para compilar el API utilizar visual studio 2022 y tener instalado .net core 7
+### abrir la solucion y compilar la aplicacion 
+
+### para que la aplicacion web funcione debe estar corriendo el API
+
+
