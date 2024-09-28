@@ -1,6 +1,7 @@
 import Home from './components/inicio.vue'
 import Autor from './components/autor.vue'
 import Libro from './components/libro.vue'
+import Registro from './components/registro.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
 const routes = [
@@ -18,6 +19,11 @@ const routes = [
         name: 'Libro',
         component: Libro,
         path: '/libros'
+    },
+    {
+        name: 'Registro',
+        component: Registro,
+        path: '/registro'
     }
 ];
 
